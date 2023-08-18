@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.wrapper{
+    margin: 90px auto;
+    width: 70%;
+}
+
+img{
+    max-width: 37%;
+    float: left;
+    border: 3px solid #640000;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.text-box{
+    color: rgb(104, 6, 6);
+}
+
+.text-box h2{
+    font-size: 40px;
+}
+
+.text-box p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
